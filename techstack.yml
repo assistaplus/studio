@@ -1,0 +1,828 @@
+repo_name: assistaplus/studio
+report_id: 29083e8f8eb007aeb709334e54beaeb6
+version: 0.1
+repo_type: Public
+timestamp: '2024-05-06T13:38:54+00:00'
+requested_by: vabarbosa
+provider: github
+branch: main
+detected_tools_count: 58
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/assistaplus/studio
+  detection_source: Repo Metadata
+- name: Pug
+  description: Robust, elegant, feature rich template engine for nodejs
+  website_url: https://pugjs.org
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/1175/pug.png
+  detection_source_url: https://github.com/assistaplus/studio/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Philipp Legner
+  last_updated_on: 2021-03-17 09:49:16.000000000 Z
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/assistaplus/studio
+  detection_source: Repo Metadata
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/assistaplus/studio/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Philipp Legner
+  last_updated_on: 2021-03-17 09:49:16.000000000 Z
+- name: Autoprefixer
+  description: PostCSS plugin to parse CSS and add vendor prefixes to CSS rules
+  website_url: https://github.com/postcss/autoprefixer
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png
+  detection_source_url: https://github.com/assistaplus/studio/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2021-11-02 09:37:46.000000000 Z
+- name: ExpressJS
+  description: Sinatra inspired web development framework for node.js -- insanely
+    fast, flexible, and simple
+  website_url: http://expressjs.com/
+  version: 4.17.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1163/hashtag.png
+  detection_source_url: https://github.com/assistaplus/studio/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Philipp Legner
+  last_updated_on: 2021-11-14 20:08:15.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/assistaplus/studio/blob/main/docs/example/package.json
+  detection_source: docs/example/package.json
+  last_updated_by: Philipp Legner
+  last_updated_on: 2021-03-17 09:49:16.000000000 Z
+- name: PostCSS
+  description: Transform CSS with JS plugins
+  website_url: https://github.com/postcss/postcss
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/3339/rlFcjEdI.png
+  detection_source_url: https://github.com/assistaplus/studio/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Philipp Legner
+  last_updated_on: 2021-03-17 09:49:16.000000000 Z
+- name: Sass
+  description: Syntactically Awesome Style Sheets
+  website_url: http://sass-lang.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/1171/jCR2zNJV.png
+  detection_source_url: https://github.com/assistaplus/studio/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Philipp Legner
+  last_updated_on: 2021-03-17 09:49:16.000000000 Z
+- name: MongoDB
+  description: The database for giant ideas
+  website_url: http://www.mongodb.com/
+  version: 4.1.3
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1030/leaf-360x360.png
+  detection_source_url: https://github.com/assistaplus/studio/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Philipp Legner
+  last_updated_on: 2021-11-14 20:08:15.000000000 Z
+- name: Mongoose
+  description: MongoDB object modeling designed to work in an asynchronous environment
+  website_url: http://mongoosejs.com/
+  version: 6.0.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Document Mapper (ODM)
+  image_url: https://img.stackshare.io/service/1231/0TXzZU7W_400x400.jpg
+  detection_source_url: https://github.com/assistaplus/studio/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Philipp Legner
+  last_updated_on: 2021-11-14 20:08:15.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/assistaplus/studio/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Philipp Legner
+  last_updated_on: 2021-03-17 09:49:16.000000000 Z
+- name: Esbuild
+  description: An extremely fast JavaScript bundler
+  website_url: https://esbuild.github.io/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/25166/default_2dcc9286a150737a14625d18f6f93747f72be430.png
+  detection_source_url: https://github.com/assistaplus/studio/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Philipp Legner
+  last_updated_on: 2021-11-14 20:08:15.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/assistaplus/studio
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/assistaplus/studio/blob/main/.github/workflows/codeql.yml
+  detection_source: ".github/workflows/codeql.yml"
+  last_updated_by: Philipp Legner
+  last_updated_on: 2021-03-04 19:43:25.000000000 Z
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/assistaplus/studio/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Philipp Legner
+  last_updated_on: 2021-03-17 09:49:16.000000000 Z
+- name: jsdom
+  description: A JavaScript implementation of the WHATWG DOM and HTML standards, for
+    use with node.js
+  website_url: https://github.com/jsdom/jsdom
+  version: 18.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Headless Browsers
+  image_url: https://img.stackshare.io/service/7054/preview.jpeg
+  detection_source_url: https://github.com/assistaplus/studio/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2021-11-02 09:39:05.000000000 Z
+- name: nodemon
+  description: A simple monitor script for use during development of a node.js app
+  website_url: http://nodemon.io/
+  version: 2.0.14
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: node.js Application Monitoring
+  image_url: https://img.stackshare.io/service/5577/preview.png
+  detection_source_url: https://github.com/assistaplus/studio/blob/main/docs/example/package.json
+  detection_source: docs/example/package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2021-11-02 09:37:22.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/assistaplus/studio/blob/main/docs/example/package.json
+  detection_source: docs/example/package.json
+  last_updated_by: Philipp Legner
+  last_updated_on: 2021-03-17 09:49:16.000000000 Z
+- name: Autotrack
+  description: Open source lib for automatic and enhanced Google Analytics tracking
+    for common user interactions on the web (by Google)
+  website_url: https://github.com/googleanalytics/autotrack
+  open_source: true
+  hosted_saas: false
+  category: Analytics
+  sub_category: General Analytics
+  image_url: https://img.stackshare.io/service/6522/a4ia-MPO.jpg
+  detection_source_url: https://github.com/assistaplus/studio/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Philipp Legner
+  last_updated_on: 2021-03-17 09:49:16.000000000 Z
+- name: MathJax
+  description: Cross-browser JavaScript library that displays mathematical notation
+  website_url: https://www.mathjax.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2832/favicon_400x400.png
+  detection_source_url: https://github.com/assistaplus/studio/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Philipp Legner
+  last_updated_on: 2021-03-17 09:49:16.000000000 Z
+- name: Tape
+  description: 'i''m the package manager for javascript. problems? try @npm_support
+    and #npm on freenode.'
+  website_url: https://www.npmjs.com/package/tape
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/3722/lejvzrnlpb308aftn31u_normal.png
+  detection_source_url: https://github.com/assistaplus/studio/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Philipp Legner
+  last_updated_on: 2021-03-17 09:49:16.000000000 Z
+- name: cssnano
+  description: A modular minifier, based on the PostCSS ecosystem. Created by @ben_eb.
+  website_url: http://cssnano.co/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/6612/ehMiE-wz_normal.jpg
+  detection_source_url: https://github.com/assistaplus/studio/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2021-09-01 09:38:30.000000000 Z
+- name: date-fns
+  description: Modern JavaScript date utility library
+  website_url: https://date-fns.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/10865/default_5551fb8853689f607a2bc0d5a09355d5a3d52bf0.png
+  detection_source_url: https://github.com/assistaplus/studio/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Philipp Legner
+  last_updated_on: 2021-11-14 20:08:15.000000000 Z
+- name: express
+  description: Fast, unopinionated, minimalist web framework
+  package_url: https://www.npmjs.com/express
+  version: 4.17.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/assistaplus/studio/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Philipp Legner
+  last_updated_on: 2021-11-14 20:08:15.000000000 Z
+  vulnerabilities:
+  - name: qs vulnerable to Prototype Pollution
+    cve_id: CVE-2022-24999
+    cve_url: https://github.com/advisories/GHSA-hrpp-h998-j3pp
+    detected_date: Dec 7
+    severity: high
+    first_patched: 4.17.3
+  - name: Express.js Open Redirect in malformed URLs
+    cve_id: CVE-2024-29041
+    cve_url: https://github.com/advisories/GHSA-rv95-896h-c2vc
+    detected_date: Mar 26
+    severity: moderate
+    first_patched: 4.19.2
+- name: html-minifier
+  description: Highly configurable
+  package_url: https://www.npmjs.com/html-minifier
+  version: 4.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16552/default_aaf5839b9bd35cf60ebf8e1b59d64d8e3b398aaa.png
+  detection_source_url: https://github.com/assistaplus/studio/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2021-04-01 08:18:12.000000000 Z
+  vulnerabilities:
+  - name: kangax html-minifier REDoS vulnerability
+    cve_id: CVE-2022-37620
+    cve_url: https://github.com/advisories/GHSA-pfq8-rq6v-vf5m
+    detected_date: Apr 23
+    severity: high
+    first_patched:
+- name: marked
+  description: A markdown parser built for speed
+  package_url: https://www.npmjs.com/marked
+  version: 3.0.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16065/default_c7b204838197013798409fa2b4dafce450edc7fb.png
+  detection_source_url: https://github.com/assistaplus/studio/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2021-11-02 09:37:10.000000000 Z
+  vulnerabilities:
+  - name: Inefficient Regular Expression Complexity in marked
+    cve_id: CVE-2022-21681
+    cve_url: https://github.com/advisories/GHSA-5v2h-r2cx-5xgj
+    detected_date: Jan 15
+    severity: high
+    first_patched: 4.0.10
+  - name: Inefficient Regular Expression Complexity in marked
+    cve_id: CVE-2022-21680
+    cve_url: https://github.com/advisories/GHSA-rrrm-qjm4-v8hf
+    detected_date: Jan 15
+    severity: high
+    first_patched: 4.0.10
+- name: node-fetch
+  description: A light-weight module that brings window.fetch to node.js
+  package_url: https://www.npmjs.com/node-fetch
+  version: 2.6.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15978/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: https://github.com/assistaplus/studio/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Philipp Legner
+  last_updated_on: 2021-11-14 20:08:15.000000000 Z
+  vulnerabilities:
+  - name: node-fetch forwards secure headers to untrusted sites
+    cve_id: CVE-2022-0235
+    cve_url: https://github.com/advisories/GHSA-r683-j2x4-v87g
+    detected_date: Jan 22
+    severity: high
+    first_patched: 2.6.7
+- name: "@types/compression"
+  description: TypeScript definitions for compression
+  package_url: https://www.npmjs.com/@types/compression
+  version: 1.7.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18206/default_dfaa3c3f19039c5391ee1a13529324eaa2685e7f.png
+  detection_source_url: https://github.com/assistaplus/studio/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Philipp Legner
+  last_updated_on: 2021-11-16 17:32:14.000000000 Z
+- name: "@types/cookie-parser"
+  description: TypeScript definitions for cookie-parser
+  package_url: https://www.npmjs.com/@types/cookie-parser
+  version: 1.4.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18195/default_5b09e8832af55b8bf88554d45d4eb65653e6ac76.png
+  detection_source_url: https://github.com/assistaplus/studio/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Philipp Legner
+  last_updated_on: 2021-11-14 20:08:15.000000000 Z
+- name: "@types/express"
+  description: TypeScript definitions for Express
+  package_url: https://www.npmjs.com/@types/express
+  version: 4.17.13
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16100/default_d947c1690e032a288145c7e2491999eab3ea8ede.png
+  detection_source_url: https://github.com/assistaplus/studio/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Philipp Legner
+  last_updated_on: 2021-11-14 20:08:15.000000000 Z
+- name: "@types/express-session"
+  description: TypeScript definitions for express-session
+  package_url: https://www.npmjs.com/@types/express-session
+  version: 1.17.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18757/default_c692c805cf2082b8bc09a2771d585507f0f7bc36.png
+  detection_source_url: https://github.com/assistaplus/studio/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Philipp Legner
+  last_updated_on: 2021-11-16 17:32:14.000000000 Z
+- name: "@types/js-yaml"
+  description: TypeScript definitions for js-yaml
+  package_url: https://www.npmjs.com/@types/js-yaml
+  version: 4.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16757/default_c6eddffbed005d007ab4638fbcac90e4b79576b2.png
+  detection_source_url: https://github.com/assistaplus/studio/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Philipp Legner
+  last_updated_on: 2021-11-14 20:08:15.000000000 Z
+- name: "@types/node-fetch"
+  description: TypeScript definitions for node-fetch
+  package_url: https://www.npmjs.com/@types/node-fetch
+  version: 2.5.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16459/default_5ffcf8d02a3454bd25d27d236025c6d078c3b672.png
+  detection_source_url: https://github.com/assistaplus/studio/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Philipp Legner
+  last_updated_on: 2021-11-14 20:08:15.000000000 Z
+- name: "@types/validator"
+  description: TypeScript definitions for validator.js
+  package_url: https://www.npmjs.com/@types/validator
+  version: 13.6.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17698/default_52c11a434d2ce37281914a7f804e07cf95ab96f7.png
+  detection_source_url: https://github.com/assistaplus/studio/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Philipp Legner
+  last_updated_on: 2021-11-14 20:08:15.000000000 Z
+- name: "@typescript-eslint/eslint-plugin"
+  description: TypeScript plugin for ESLint
+  package_url: https://www.npmjs.com/@typescript-eslint/eslint-plugin
+  version: 5.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/assistaplus/studio/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Philipp Legner
+  last_updated_on: 2021-11-14 20:08:15.000000000 Z
+- name: "@typescript-eslint/parser"
+  description: An ESLint custom parser which leverages TypeScript ESTree
+  package_url: https://www.npmjs.com/@typescript-eslint/parser
+  version: 5.3.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: https://github.com/assistaplus/studio/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Philipp Legner
+  last_updated_on: 2021-11-14 20:08:15.000000000 Z
+- name: "@webcomponents/custom-elements"
+  description: HTML Custom Elements Polyfill
+  package_url: https://www.npmjs.com/@webcomponents/custom-elements
+  version: 1.5.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18023/default_d8756eea8d13a271fb42437ffb36c0a116d72925.png
+  detection_source_url: https://github.com/assistaplus/studio/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2021-10-01 09:45:47.000000000 Z
+- name: bcryptjs
+  description: Optimized bcrypt in plain JavaScript with zero dependencies
+  package_url: https://www.npmjs.com/bcryptjs
+  version: 2.4.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16857/default_627f05e6a07ce29fc9f119417270f38e8aa5c5e2.png
+  detection_source_url: https://github.com/assistaplus/studio/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Philipp Legner
+  last_updated_on: 2021-11-14 20:08:15.000000000 Z
+- name: body-parser
+  description: Node.js body parsing middleware
+  package_url: https://www.npmjs.com/body-parser
+  version: 1.19.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15906/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/assistaplus/studio/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2021-11-02 10:13:10.000000000 Z
+- name: chokidar
+  description: A neat wrapper around node.js fs.watch / fs.watchFile / fsevents
+  package_url: https://www.npmjs.com/chokidar
+  version: 3.5.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16043/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: https://github.com/assistaplus/studio/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2021-06-17 16:45:23.000000000 Z
+- name: compression
+  description: Node.js compression middleware
+  package_url: https://www.npmjs.com/compression
+  version: 1.7.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16187/default_9a7a7dcd69c12c746dc4000dc4d1b75758079c9f.png
+  detection_source_url: https://github.com/assistaplus/studio/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Philipp Legner
+  last_updated_on: 2021-11-16 17:32:14.000000000 Z
+- name: connect-mongo
+  description: MongoDB session store for Express and Connect
+  package_url: https://www.npmjs.com/connect-mongo
+  version: 4.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17588/default_e98b11d23d67b728bd1f3e02eba62d97a55febbd.png
+  detection_source_url: https://github.com/assistaplus/studio/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Philipp Legner
+  last_updated_on: 2021-11-14 20:08:15.000000000 Z
+- name: cookie-parser
+  description: Parse HTTP request cookies
+  package_url: https://www.npmjs.com/cookie-parser
+  version: 1.4.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16136/default_def3edb85d7fbd20200a5cd7d0a1679e31bc8b3d.png
+  detection_source_url: https://github.com/assistaplus/studio/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2021-11-02 10:13:10.000000000 Z
+- name: cssnano
+  description: A modular minifier, built on top of the PostCSS ecosystem
+  package_url: https://www.npmjs.com/cssnano
+  version: 5.0.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16102/default_efe4f0184d007a28e793d89a59e058b742bc9177.png
+  detection_source_url: https://github.com/assistaplus/studio/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2021-09-01 09:38:30.000000000 Z
+- name: eslint-config-google
+  description: ESLint shareable config for the Google style
+  package_url: https://www.npmjs.com/eslint-config-google
+  version: 0.14.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16249/default_380ae3d73e22c7ca1f42b96479bcd0095dabc0d3.png
+  detection_source_url: https://github.com/assistaplus/studio/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Philipp Legner
+  last_updated_on: 2021-11-14 20:08:15.000000000 Z
+- name: eslint-plugin-import
+  description: Import with sanity
+  package_url: https://www.npmjs.com/eslint-plugin-import
+  version: 2.25.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/assistaplus/studio/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2021-11-02 10:13:10.000000000 Z
+- name: express-session
+  description: Simple session middleware for Express
+  package_url: https://www.npmjs.com/express-session
+  version: 1.17.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16239/default_180418c6fa6cdb8f7a3500f84a8fedb884fcb3fa.png
+  detection_source_url: https://github.com/assistaplus/studio/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Philipp Legner
+  last_updated_on: 2021-11-16 17:32:14.000000000 Z
+- name: glob
+  description: A little globber
+  package_url: https://www.npmjs.com/glob
+  version: 7.2.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15875/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/assistaplus/studio/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2021-10-01 09:39:48.000000000 Z
+- name: html-entities
+  description: Faster HTML entities encode/decode library
+  package_url: https://www.npmjs.com/html-entities
+  version: 2.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17291/default_116e98e237458e603feb81cfbf628c00544be692.png
+  detection_source_url: https://github.com/assistaplus/studio/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2021-04-01 08:18:12.000000000 Z
+- name: js-yaml
+  description: YAML 1.2 parser and serializer
+  package_url: https://www.npmjs.com/js-yaml
+  version: 3.14.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15997/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
+  detection_source_url: https://github.com/assistaplus/studio/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2021-11-02 09:28:58.000000000 Z
+- name: npm-run-all
+  description: A CLI tool to run multiple npm-scripts in parallel or sequential
+  package_url: https://www.npmjs.com/npm-run-all
+  version: 4.1.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15926/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: https://github.com/assistaplus/studio/blob/main/docs/example/package.json
+  detection_source: docs/example/package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2021-04-01 07:59:25.000000000 Z
+- name: tape
+  description: Tap-producing test harness for node and browsers
+  package_url: https://www.npmjs.com/tape
+  version: 5.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15856/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/assistaplus/studio/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2021-09-01 09:01:39.000000000 Z
+- name: ts-node
+  description: TypeScript execution environment and REPL for node.js
+  package_url: https://www.npmjs.com/ts-node
+  version: 10.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15830/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/assistaplus/studio/blob/main/docs/example/package.json
+  detection_source: docs/example/package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2021-11-02 09:37:22.000000000 Z
+- name: tslib
+  description: Runtime library for TypeScript helper functions
+  package_url: https://www.npmjs.com/tslib
+  version: 2.3.1
+  license: 0BSD
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15853/default_97d4687bd07ff1bb963fd566c84e7cbf7c73bbee.png
+  detection_source_url: https://github.com/assistaplus/studio/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2021-09-01 09:02:49.000000000 Z
+- name: validator
+  description: String validation and sanitization
+  package_url: https://www.npmjs.com/validator
+  version: 13.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16255/default_fef27d1523ac1844fc00e83e47bddd8898ff8a89.png
+  detection_source_url: https://github.com/assistaplus/studio/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Philipp Legner
+  last_updated_on: 2021-11-14 20:08:15.000000000 Z
+- name: web-animations-js
+  description: JavaScript implementation of the Web Animations API
+  package_url: https://www.npmjs.com/web-animations-js
+  version: 2.3.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17217/default_fbe883dfc6d978f82179fa11bdf634af1b6751fa.png
+  detection_source_url: https://github.com/assistaplus/studio/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Philipp Legner
+  last_updated_on: 2021-03-17 09:49:16.000000000 Z
+- name: yargs-parser
+  description: The mighty option parser used by yargs
+  package_url: https://www.npmjs.com/yargs-parser
+  version: 20.2.9
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17207/default_37d9ccc57ae4d32e7ff46614e4f8bb2c4ddc7964.png
+  detection_source_url: https://github.com/assistaplus/studio/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2021-11-02 10:13:10.000000000 Z
